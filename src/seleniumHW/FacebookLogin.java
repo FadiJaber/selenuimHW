@@ -15,7 +15,7 @@ public class FacebookLogin {
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("fadi_jab@hotmail.com");
 		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("fd480726");
-		driver.findElement(By.xpath(".//*[@value='تسجيل الدخول']")).click();
+		driver.findElement(By.xpath(".//*[@data-testid='royal_login_button']")).click();
 		
 	}
 }
