@@ -13,9 +13,9 @@ public class FacebookLogin {
 		driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com");
 		driver.manage().window().maximize();
-		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("fadi_jab@hotmail.com");
-		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("fd480726");
-		driver.findElement(By.xpath(".//*[@data-testid='royal_login_button']")).click();
+		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("email@hotmail.com");
+		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("********");
+		driver.findElement(By.xpath(".//*[@data-testid=\"royal_login_button\"]")).click();
 		
 	}
 }
